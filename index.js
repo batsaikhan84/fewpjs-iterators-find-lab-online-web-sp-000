@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(record) {
-  newRecord = record.find(e => e.result === 'W')
+  let newRecord = record.find(e => e.result === 'W')
   if (typeof newRecord === 'undefined') {
     return 'undefined'
   } else {
